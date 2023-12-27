@@ -1,0 +1,19 @@
+go mod init or go mod init go/go-crud
+
+go get github.com/githubnemo/CompileDaemon
+go install github.com/githubnemo/CompileDaemon
+
+go get github.com/joho/godotenv
+
+go get -u github.com/gin-gonic/gin
+
+go get -u gorm.io/gorm
+
+go get -u gorm.io/driver/mysql
+
+go run migrate/migrate.go 
+
+for reload
+CompileDaemon -command="./international-cricket-players-profile-crud"
+or 
+go run .
